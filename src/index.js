@@ -3,7 +3,7 @@ var http = require('http');
 var url = require('url');
 var database = require("./database/pets");
 
-http.createServer(function (req, res) {
+http.createServer(async (req, res) => {
     const q = url.parse(req.url, true);
     
     // TODO: Implement routes from API Spec

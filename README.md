@@ -15,6 +15,15 @@ API Spec: https://app.swaggerhub.com/apis-docs/AkshatJain1/Petstore
 
 # Recommended Workflow
 1. Define Pet Object Schema in `src/database/pets.js`
-2. Add more test data in `src/database/pets.js`
+2. Add more test data in `src/database/sample_starter.json`
 3. Complete the controller functions in `src/database/pets.js`
 4. Specify route definitions in `src/index.js` using the controller functions
+
+# Tips:
+- You will have to use async/await in order to access POST/PUT body. Do some research here!
+- Follow the spec very closely. Make sure the exact response parameters are being satisfied.
+- Write function header comments to help your future self!
+- Remember reusability and write modular code.
+- Test with Postman, frequently!
+- Use Google/Stack Overflow if you get stuck or have a weird error!
+- Email technical@plextech.berkeley.edu if you have a question about the requirements

@@ -15,28 +15,7 @@ const isValid = ajv.compile(pet_schema);
     // - Private data (should NOT be exported)
     // - Note that since we're storing our data in-memory (not persistent),
     //    this data will reset everytime the program restarts
-const data = [
-    {
-        "id": 0,
-        "name": "doggie",
-        "photoUrls": [
-            "http://google.com/"
-        ],
-        "tags": [
-            "tag1"
-        ],
-        "status": "available"
-    },
-    {
-        "id": 3,
-        "name": "catapalooza",
-        "photoUrls": [
-            "https://www.yahoo.com/"
-        ],
-        "tags": [],
-        "status": "sold"
-    }
-];
+const data = require("./sample_starter.json");
 
 
 /* CONTROLLER FUNCTIONS */
